@@ -8,6 +8,7 @@ packages:
   gitUsername: moaaSoftwareAG
   gitBranch: main
 - name: OnPremiseISPkg
+  version: "1.0"
   gitServerName: gitrawa
   gitUrl: https://github.com/radhikaWarrierSAG
   gitUsername: radhikaWarrierSAG
@@ -16,6 +17,8 @@ services:
 - serviceName: project.testgit.integrations:edge_flow_1
   packages:
   - name: TestGitProject
+    version: "1.0"
+  - name: OnPremiseISPkg
     version: "1.0"
 - serviceName: pub.date:getCurrentDate
   packages:
