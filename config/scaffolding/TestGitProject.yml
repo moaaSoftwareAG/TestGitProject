@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/moaaSoftwareAG
   gitUsername: moaaSoftwareAG
   gitBranch: main
+- name: OnPremiseISPkg
+  gitServerName: gitrawa
+  gitUrl: https://github.com/radhikaWarrierSAG
+  gitUsername: radhikaWarrierSAG
+  gitBranch: main
 services:
 - serviceName: project.testgit.integrations:edge_flow_1
   packages:
